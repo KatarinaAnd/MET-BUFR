@@ -28,7 +28,6 @@ import netCDF4
 import glob
 from datetime import datetime, timedelta, date
 from calendar import monthrange, month_name
-from test_dict import return_dict
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
