@@ -5,8 +5,6 @@ for the blockNumber-function, and needs to be implemented for wigosID, stateIden
 
 **get_keywords.py** is self explanatory. Contains the function that is supposed to return the keywords for each variable
 
-**code_tables.py** has not been implemented into the main code yet, not sure if needed. However, if needed, then this shouldn't be too hard either
-
 **useful_function.py** contains useful functions that I've made specifically for this task.
 
 **main_config.cfg**, configuration file. Self explanatory. However, needs a user manual or something.
