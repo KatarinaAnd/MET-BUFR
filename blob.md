@@ -1,6 +1,9 @@
 # syno_bufr_2_netcdf.py
 
 **parse_arguments**
+Tar inn argumenter:
+
+-c // -st // -s // -e // -i // -a // -u
 
 **parse_cfg**
 
