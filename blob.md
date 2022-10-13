@@ -4,9 +4,9 @@
 
 Tar inn argumenter:
 
--c konfigurasjonsfil
+* -c konfigurasjonsfil
 
--t type of station identifier. Either block/wigos/state/ship.
+* -t type of station identifier. Either block/wigos/state/ship.
 
 -st gir muligheten for å spesifisere stasjoner man ønsker å hente ut. Dersom stationtype (-t) er block, kan man bare skrive inn stasjoner som identifseres med "[blockNumber][stationNumber]". Dersom t = state, må stasjonene skrives inn som  "[stateIdendifier]-[nationalStationNumber]". Dersom t = wigos, må stasjonene skrives inn som "[wigosIdentifierSeries]-[wigosIssuerOfIdentifier]-[wigosIssueNumber]-[wigosLocalIdentifierCharacter]". Dersom t = ship, må stasjonene skrives inn som "[shipOrMobileLandIdentifier]".
 
