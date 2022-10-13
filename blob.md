@@ -2,17 +2,18 @@
 
 **parse_arguments**
 
-Tar inn argumenter:
+Parses arguments:
 
-* -c konfigurasjonsfil
+* -c configuration file
 
 * -t type of station identifier. Either block/wigos/state/ship.
 
-* -st gir muligheten for å spesifisere stasjoner man ønsker å hente ut. Dersom stationtype (-t) er block, kan man bare skrive inn stasjoner som identifseres med "[blockNumber][stationNumber]". Dersom t = state, må stasjonene skrives inn som  "[stateIdendifier]-[nationalStationNumber]". Dersom t = wigos, må stasjonene skrives inn som "[wigosIdentifierSeries]-[wigosIssuerOfIdentifier]-[wigosIssueNumber]-[wigosLocalIdentifierCharacter]". Dersom t = ship, må stasjonene skrives inn som "[shipOrMobileLandIdentifier]".
+* -st gives the option to specify the stations one wishes to extract. If the stationtype, t = block, the stations have to be specified through "[blockNumber][stationNumber]". If t = state the stations have to be specified through "[stateIdendifier]-[nationalStationNumber]", if t =  wigos the stations have to be specified as "[wigosIdentifierSeries]-[wigosIssuerOfIdentifier]-[wigosIssueNumber]-[wigosLocalIdentifierCharacter]", and if t = ship the stations must be specified as "[shipOrMobileLandIdentifier]".
+* 
 
-* -s may specify
+* -s may specify a timeperiod for which the data should be extracted. Startday should be in the form "YYYY-MM-DD".
 
-* -e 
+* -e Endday should be in the form "YYYY-MM-DD".
 
 * -i
 
