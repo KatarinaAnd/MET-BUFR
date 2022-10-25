@@ -29,18 +29,23 @@ reads the config file
 if -s and -e is true, then it will return the files from the input folder which contains data from the timespace specified.
 
 **get_files_initialize**
+
 if -s and -e is false, then this function returns all the available data (for the specified station type) in the input folder.
 
 **get_files_update**
+
 if -u is true, then this function will read the latest available data in the output folder, and return the available data from that date from the input folder.
 
 **bufr_2_json**
+
 converts bufr to json, using the bufr_dump bash function.
 
 **return_list_of_stations**
 
+Returns the list of stations available either within the specifies period or of all the files within the input-folder.
 
 **sorting_hat**
+
 
 **block_and_station**
 
