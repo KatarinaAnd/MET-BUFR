@@ -46,8 +46,10 @@ Returns the list of stations available either within the specifies period or of 
 
 **sorting_hat**
 
+The sorting_hat function sorts the json-output so that it is categorized by station. If there is given an -st argument, then the it will only return the message from the specified stations. 
 
 **block_and_station**
+
 
 **wigosnumber**
 
