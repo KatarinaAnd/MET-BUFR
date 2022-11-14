@@ -46,7 +46,7 @@ Returns the list of stations available either within the specifies period or of 
 
 **sorting_hat**
 
-The sorting_hat function sorts the json-output so that it is categorized by station. If there is given an -st argument, then the it will only return the message from the specified stations. 
+The sorting_hat function sorts the json-output so that it is categorized by station. If there is given an -st argument, then the it will only return the message from the specified stations. Each station-message will be further sent to either the functions block_and_station, wigosnumber, stateidentifier or shipOrMobileLandStationIdentifier, depending on the -t argument.
 
 **block_and_station**
 
